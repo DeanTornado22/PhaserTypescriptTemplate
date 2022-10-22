@@ -10,17 +10,26 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
   "dependencies": {
     "@angular/animations": "~11.1.2",
+    "@angular/cdk": "^14.2.5",
     "@angular/common": "~11.1.2",
     "@angular/compiler": "~11.1.2",
     "@angular/core": "~11.1.2",
     "@angular/forms": "~11.1.2",
+    "@angular/material": "^14.2.5",
     "@angular/platform-browser": "~11.1.2",
     "@angular/platform-browser-dynamic": "~11.1.2",
     "@angular/router": "~11.1.2",
+    "@types/webfontloader": "^1.6.35",
+    "phaser": "^3.55.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "webfontloader": "^1.6.28",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
